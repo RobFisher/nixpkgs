@@ -5693,6 +5693,7 @@ with pkgs;
   logseq = callPackage ../by-name/lo/logseq/package.nix {
     # electron version from: https://github.com/logseq/logseq/blob/d8c6ca264bdf9a6a0f03c46dbf3509210367624a/package.json#L116
     electron = electron_28;
+    node = nodejs_18;
   };
 
   long-shebang = callPackage ../misc/long-shebang { };

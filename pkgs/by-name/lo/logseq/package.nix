@@ -7,6 +7,7 @@
 #         the specific electron version is set at top-level file to preserve override interface.
 #         whenever updating this package also sync electron version at top-level file.
 , electron
+, node
 , autoPatchelfHook
 , git
 , nix-update-script
